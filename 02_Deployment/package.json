@@ -4,6 +4,7 @@
   "description": "\"a basic app to deploy\"",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,9 @@
     "backend"
   ],
   "author": "Rohit Kumar Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2"
+  }
 }

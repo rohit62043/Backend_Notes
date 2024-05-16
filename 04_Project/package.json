@@ -1,0 +1,15 @@
+{
+  "name": "backend_notes",
+  "version": "1.0.0",
+  "description": "backend notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Rohit Kumar Singh",
+  "license": "ISC"
+}

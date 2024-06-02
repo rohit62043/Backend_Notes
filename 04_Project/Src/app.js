@@ -22,4 +22,14 @@ app.use(express.static("public"))//Serves static files (like HTML, CSS, JS, imag
 app.use(cookieParser());//Parses cookies attached to client requests and makes them accessible via req.cookies.
 
 
+//routes import
+import userRouter from './routes/user.routes.js'
+
+//routes decleration
+app.use("/api/v1/users", userRouter);
+
+//http://localhost:800/api/v1/users/register
+
+
+
 export { app }
